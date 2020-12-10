@@ -29,7 +29,7 @@ p {
 .day {
     margin-top: 1rem;
 }
-.todo {
+.todo-container {
     width: 30rem;
     height: 82vh;
     border-radius: 3px;
@@ -61,7 +61,7 @@ p {
     animation-name: show-in;
     animation-duration: 1s;
 } 
-.todos {
+.todo {
     background-color: rgba(0, 0, 0,.1);
     padding: 0.5rem;
     display: flex;
@@ -75,7 +75,7 @@ p {
     display: flex;
     align-items: center;
 }
-.todos:hover.todos::after {
+.todo:hover.todo::after {
     position: absolute;
     content: "\f014";
     font-family: FontAwesome;
