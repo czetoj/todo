@@ -95,7 +95,7 @@ function createTodosElement(todosArray) {
     todosArray.forEach(todo => {
         const checked = todo.completed ? 'checked' : null;
         const TodosBoxElement = document.createElement("div");
-        TodosBoxElement.classList.add('todos');
+        TodosBoxElement.classList.add('todo');
         TodosBoxElement.setAttribute('data-id', todo.id);
         if (todo.completed) { TodosBoxElement.classList.add('checked') }
         TodosBoxElement.innerHTML = `
